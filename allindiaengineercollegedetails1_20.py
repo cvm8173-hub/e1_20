@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/devi-mahalaxmi-college-of-engineering-technology-mumbai-228573",
-  "https://www.shiksha.com/college/jai-narain-college-of-technology-jnct-bhopal-42383",
-  "https://www.shiksha.com/college/er-perumal-manimekalai-college-of-engineering-tamil-nadu-other-42840",
-  "https://www.shiksha.com/college/dr-a-d-shinde-college-of-engineering-kolhapur-60013",
-  "https://www.shiksha.com/college/kmbb-college-of-engineering-and-technology-bhubaneswar-48075",
-  "https://www.shiksha.com/college/sri-venkateswara-college-of-engineering-kadapa-70275",
-  "https://www.shiksha.com/college/college-of-engineering-kottarakkara-kollam-60331",
-  "https://www.shiksha.com/college/vasantrao-naik-college-of-agriculture-bio-technology-yavatmal-dr-panjabrao-deshmukh-krishi-vidyapeeth-106241",
-  "https://www.shiksha.com/college/maharaja-institute-of-technology-thandavapura-mysore-63795",
-  "https://www.shiksha.com/college/k-m-e-a-engineering-college-edathala-kerala-other-60455",
-  "https://www.shiksha.com/college/jnafau-spa-school-of-planning-and-architecture-masab-tank-hyderabad-51567",
-  "https://www.shiksha.com/college/malla-reddy-college-of-engineering-secunderabad-62145",
-  "https://www.shiksha.com/college/nri-institute-of-technology-guntur-60865",
-  "https://www.shiksha.com/college/government-engineering-college-challakere-chitradurga-146953",
-  "https://www.shiksha.com/college/college-of-food-processing-technology-and-bio-energy-anand-agricultural-university-58339",
-  "https://www.shiksha.com/university/cmr-university-bangalore-47389",
-  "https://www.shiksha.com/college/shree-siddheshwar-women-s-college-of-engineering-solapur-66005",
-  "https://www.shiksha.com/college/mit-group-of-institutes-mahakal-ujjain-4055",
-  "https://www.shiksha.com/college/shri-madhwa-vadiraja-institute-of-technology-and-management-smvitm-karnataka-other-48259",
-  "https://www.shiksha.com/college/punjab-college-of-engineering-and-technology-mohali-36949",
+  "https://www.shiksha.com/university/iit-bombay-indian-institute-of-technology-mumbai-54212",
+  "https://www.shiksha.com/university/vit-vellore-29714",
+  "https://www.shiksha.com/university/iit-delhi-indian-institute-of-technology-53938",
+  "https://www.shiksha.com/college/iit-madras-indian-institute-of-technology-adyar-chennai-3031",
+  "https://www.shiksha.com/university/bits-pilani-birla-institute-of-technology-and-science-467",
+  "https://www.shiksha.com/university/srm-institute-of-science-and-technology-kattankulathur-chennai-24749",
+  "https://www.shiksha.com/college/iit-kharagpur-indian-institute-of-technology-2999",
+  "https://www.shiksha.com/university/nit-trichy-national-institute-of-technology-tiruchirappalli-2996",
+  "https://www.shiksha.com/college/iit-kanpur-indian-institute-of-technology-25116",
+  "https://www.shiksha.com/college/iit-patna-indian-institute-of-technology-32697",
+  "https://www.shiksha.com/university/thapar-university-patiala-3015",
+  "https://www.shiksha.com/university/jamia-millia-islamia-delhi-843",
+  "https://www.shiksha.com/college/nit-calicut-national-institute-of-technology-4288",
+  "https://www.shiksha.com/university/soa-university-siksha-o-anusandhan-bhubaneswar-38037",
+  "https://www.shiksha.com/college/nit-warangal-national-institute-of-technology-25425",
+  "https://www.shiksha.com/university/lpu-lovely-professional-university-jalandhar-28499",
+  "https://www.shiksha.com/college/iit-gandhinagar-indian-institute-of-technology-32705",
+  "https://www.shiksha.com/college/iit-mandi-indian-institute-of-technology-33322",
+  "https://www.shiksha.com/college/vnit-nagpur-visvesvaraya-national-institute-of-technology-24399",
+  "https://www.shiksha.com/college/ssn-college-of-engineering-old-mahabalipuram-road-chennai-23008",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1001
+    c_count =1
 
     try:
         for base_url in BASE_URL:
