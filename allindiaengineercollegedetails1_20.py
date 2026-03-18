@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/university/iit-bombay-indian-institute-of-technology-mumbai-54212",
-  "https://www.shiksha.com/university/vit-vellore-29714",
-  "https://www.shiksha.com/university/iit-delhi-indian-institute-of-technology-53938",
-  "https://www.shiksha.com/college/iit-madras-indian-institute-of-technology-adyar-chennai-3031",
-  "https://www.shiksha.com/university/bits-pilani-birla-institute-of-technology-and-science-467",
-  "https://www.shiksha.com/university/srm-institute-of-science-and-technology-kattankulathur-chennai-24749",
-  "https://www.shiksha.com/college/iit-kharagpur-indian-institute-of-technology-2999",
-  "https://www.shiksha.com/university/nit-trichy-national-institute-of-technology-tiruchirappalli-2996",
-  "https://www.shiksha.com/college/iit-kanpur-indian-institute-of-technology-25116",
-  "https://www.shiksha.com/college/iit-patna-indian-institute-of-technology-32697",
-  "https://www.shiksha.com/university/thapar-university-patiala-3015",
-  "https://www.shiksha.com/university/jamia-millia-islamia-delhi-843",
-  "https://www.shiksha.com/college/nit-calicut-national-institute-of-technology-4288",
-  "https://www.shiksha.com/university/soa-university-siksha-o-anusandhan-bhubaneswar-38037",
-  "https://www.shiksha.com/college/nit-warangal-national-institute-of-technology-25425",
-  "https://www.shiksha.com/university/lpu-lovely-professional-university-jalandhar-28499",
-  "https://www.shiksha.com/college/iit-gandhinagar-indian-institute-of-technology-32705",
-  "https://www.shiksha.com/college/iit-mandi-indian-institute-of-technology-33322",
-  "https://www.shiksha.com/college/vnit-nagpur-visvesvaraya-national-institute-of-technology-24399",
-  "https://www.shiksha.com/college/ssn-college-of-engineering-old-mahabalipuram-road-chennai-23008",
+  "https://www.shiksha.com/university/khwaja-moinuddin-chishti-urdu-arabi-farsi-university-lucknow-59943",
+  "https://www.shiksha.com/college/dr-ambedkar-institute-of-technology-for-handicapped-kanpur-53847",
+  "https://www.shiksha.com/college/scaler-school-of-technology-electronic-city-bangalore-238352",
+  "https://www.shiksha.com/university/academy-of-maritime-education-and-training-chennai-2973",
+  "https://www.shiksha.com/college/east-west-college-of-engineering-yelahanaka-bangalore-63793",
+  "https://www.shiksha.com/college/annasaheb-dange-college-of-engineering-and-technology-sangli-21160",
+  "https://www.shiksha.com/college/dr-d-y-patil-institute-of-technology-talegaon-dabhade-pune-36827",
+  "https://www.shiksha.com/university/rama-university-kanpur-47222",
+  "https://www.shiksha.com/university/guwahati-university-gu-20039",
+  "https://www.shiksha.com/university/rajasthan-technical-university-kota-24932",
+  "https://www.shiksha.com/college/velammal-engineering-college-chennai-22383",
+  "https://www.shiksha.com/college/rajadhani-institute-of-engineering-and-technology-trivandrum-47520",
+  "https://www.shiksha.com/college/maharana-pratap-engineering-college-kanpur-53972",
+  "https://www.shiksha.com/university/sapthagiri-nps-university-bangalore-224631",
+  "https://www.shiksha.com/university/dibrugarh-university-31514",
+  "https://www.shiksha.com/university/kalinga-university-raipur-43004",
+  "https://www.shiksha.com/college/karpagam-academy-of-higher-education-kahe-coimbatore-28632",
+  "https://www.shiksha.com/college/jct-college-of-engineering-technology-coimbatore-53354",
+  "https://www.shiksha.com/college/govind-ballabh-pant-institute-of-engineering-and-technology-uttarakhand-other-24262",
+  "https://www.shiksha.com/college/mite-mangalore-institute-of-technology-and-engineering-42688",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1
+    c_count =421
 
     try:
         for base_url in BASE_URL:
