@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/university/pratap-university-jaipur-38054",
-  "https://www.shiksha.com/college/a-g-patil-institute-of-technology-soregaon-solapur-59677",
-  "https://www.shiksha.com/college/matu-ram-institute-of-engineering-management-rohtak-44540",
-  "https://www.shiksha.com/college/dr-daulatrao-aher-college-of-engineering-dr-ashok-gujar-technical-institute-maharashtra-other-60071",
-  "https://www.shiksha.com/college/kc-institute-of-engineering-and-technology-kc-group-of-institutions-una-40872",
-  "https://www.shiksha.com/college/aurora-s-technological-and-management-academy-uppal-hyderabad-66257",
-  "https://www.shiksha.com/college/bharatesh-institute-of-technology-belgaum-227867",
-  "https://www.shiksha.com/college/camellia-institute-of-technology-and-management-bainchi-kolkata-48824",
-  "https://www.shiksha.com/college/university-college-of-engineering-thirukkuvalai-nagapattinam-61739",
-  "https://www.shiksha.com/college/sampoorna-institute-of-technology-and-research-ramanagara-185065",
-  "https://www.shiksha.com/university/kishkinda-university-ballari-228729",
-  "https://www.shiksha.com/college/universal-engineering-college-thrissur-47534",
-  "https://www.shiksha.com/college/shri-ram-murti-smarak-college-of-engineering-and-technology-lucknow-49442",
-  "https://www.shiksha.com/college/rajadhani-institute-of-science-and-technology-palakkad-147067",
-  "https://www.shiksha.com/college/narayana-engineering-college-gudur-andhra-pradesh-other-57319",
-  "https://www.shiksha.com/college/shri-ram-group-of-colleges-muzaffarnagar-60101",
-  "https://www.shiksha.com/university/chaudhary-ranbir-singh-university-jind-58699",
-  "https://www.shiksha.com/college/nxtwave-institute-of-advanced-technologies-pune-238558",
-  "https://www.shiksha.com/college/bm-college-of-technology-indore-26450",
-  "https://www.shiksha.com/college/college-of-dairy-and-food-science-technology-udaipur-60598",
+  "https://www.shiksha.com/college/trinity-college-of-engineering-and-technology-karimnagar-61329",
+  "https://www.shiksha.com/college/marthandam-college-of-engineering-and-technology-kanyakumari-61747",
+  "https://www.shiksha.com/college/veerappa-nisty-engineering-college-karnataka-other-47983",
+  "https://www.shiksha.com/college/a-k-t-memorial-college-of-engineering-and-technology-kanchipuram-61685",
+  "https://www.shiksha.com/college/anu-college-of-engineering-and-technology-guntur-146309",
+  "https://www.shiksha.com/college/pesit-bangalore-south-campus-185059",
+  "https://www.shiksha.com/college/thakur-shree-dps-college-of-engineering-management-palghar-243878",
+  "https://www.shiksha.com/college/sngist-sree-narayana-guru-institute-of-science-and-technology-ernakulum-13705",
+  "https://www.shiksha.com/college/chirala-engineering-college-andhra-pradesh-other-22501",
+  "https://www.shiksha.com/college/punjab-state-aeronautical-engineering-college-maharaja-ranjit-singh-punjab-technical-university-patiala-59207",
+  "https://www.shiksha.com/college/ganadipathy-tulsi-s-jain-engineering-college-vellore-61681",
+  "https://www.shiksha.com/college/lakshmi-narain-college-of-technology-and-science-indore-67677",
+  "https://www.shiksha.com/college/uttar-pradesh-state-institute-of-forensic-science-lucknow-231946",
+  "https://www.shiksha.com/college/scient-institute-of-technology-sit-ibrahimpatnam-21114",
+  "https://www.shiksha.com/college/spintronic-technology-and-advance-research-bhubaneswar-34317",
+  "https://www.shiksha.com/college/rcp-universe-group-of-institutions-roorkee-47018",
+  "https://www.shiksha.com/college/srinix-college-of-engineering-orissa-other-58959",
+  "https://www.shiksha.com/college/vidhyapeeth-institute-of-science-technology-bhopal-60257",
+  "https://www.shiksha.com/college/sai-ganapathi-engineering-college-visakhapatnam-60943",
+  "https://www.shiksha.com/college/college-of-food-technology-parbhani-190261",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1301
+    c_count = 1721
 
     try:
         for base_url in BASE_URL:
