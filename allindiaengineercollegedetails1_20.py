@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/vyas-college-of-engineering-technology-vcet-jodhpur-42521",
-  "https://www.shiksha.com/college/nce-narayanaguru-college-of-engineering-coimbatore-52513",
-  "https://www.shiksha.com/college/swetha-institute-of-technology-and-science-tirupati-61015",
-  "https://www.shiksha.com/college/vits-engineering-college-khurda-61429",
-  "https://www.shiksha.com/college/jai-parkash-mukand-lal-innovative-engineering-and-technology-institute-haryana-other-61491",
-  "https://www.shiksha.com/college/mother-terasa-college-of-engineering-and-technology-tamil-nadu-other-61555",
-  "https://www.shiksha.com/college/saraswathy-college-of-engineering-and-technology-villupuram-61695",
-  "https://www.shiksha.com/university/dr-c-v-raman-university-madhya-pradesh-khandwa-61813",
-  "https://www.shiksha.com/college/college-of-agricultural-engineering-madakasira-acharya-n-g-ranga-agricultural-university-anantapur-202929",
-  "https://www.shiksha.com/college/modern-institute-of-engineering-and-technology-miet-kurukshetra-33040",
-  "https://www.shiksha.com/college/mathuradevi-group-of-institutes-indore-48136",
-  "https://www.shiksha.com/college/jamal-mohamed-college-of-engineering-vadamadurai-nilakkottai-dindigul-243958",
-  "https://www.shiksha.com/college/gopal-krishna-college-of-engineering-and-technology-orissa-other-23473",
-  "https://www.shiksha.com/college/dr-m-v-shetty-institute-of-technology-mangalore-23722",
-  "https://www.shiksha.com/college/springdale-maritime-academy-bhubaneswar-52821",
-  "https://www.shiksha.com/college/priyadarshini-college-of-engineering-sullurpet-nellore-60883",
-  "https://www.shiksha.com/college/k-k-c-college-of-engineering-and-technology-tamil-nadu-other-61533",
-  "https://www.shiksha.com/college/amrut-institute-khadiya-65177",
-  "https://www.shiksha.com/college/college-of-agriculture-engineering-and-technology-thane-71255",
-  "https://www.shiksha.com/college/adusumilli-vijaya-institute-of-technology-and-research-centre-nalgonda-148569",
+  "https://www.shiksha.com/college/jamia-tibbiya-deoband-saharanpur-86969",
+  "https://www.shiksha.com/college/yashwantrao-bhonsale-college-of-pharmacy-sawantwadi-88423",
+  "https://www.shiksha.com/college/m-s-m-institute-of-ayurveda-sonepat-195367",
+  "https://www.shiksha.com/college/shri-dhanvantri-ayurvedic-medical-college-karnataka-other-185775",
+  "https://www.shiksha.com/college/ppce-viman-nagar-ruby-hall-clinic-bund-garden-bund-garden-road-pune-38376",
+  "https://www.shiksha.com/college/dr-d-y-patil-institute-of-optometry-and-visual-sciences-pune-190223",
+  "https://www.shiksha.com/college/the-oxford-college-of-physiotherapy-bangalore-202019",
+  "https://www.shiksha.com/college/trinity-college-of-pharmacy-pune-208101",
+  "https://www.shiksha.com/college/sonekar-college-of-pharmacy-nagpur-87697",
+  "https://www.shiksha.com/college/bhai-gurdas-degree-college-sangrur-140971",
+  "https://www.shiksha.com/university/iilm-university-gurgaon-56587",
+  "https://www.shiksha.com/college/oriental-college-of-pharmacy-bhopal-147525",
+  "https://www.shiksha.com/college/sardar-patel-college-of-pharmacy-gorakhpur-65485",
+  "https://www.shiksha.com/college/the-lotus-college-of-optometry-juhu-mumbai-29756",
+  "https://www.shiksha.com/university/jagran-lakecity-university-bhopal-38105",
+  "https://www.shiksha.com/college/anantrao-kanase-homoeopathic-medical-college-maharashtra-other-70067",
+  "https://www.shiksha.com/college/jagadguru-gangadhar-mahaswamigalu-moorsavirmath-medical-college-hubli-180681",
+  "https://www.shiksha.com/college/medical-college-and-hospital-bharati-vidyapeeth-sangli-54845",
+  "https://www.shiksha.com/college/girijananda-chowdhury-institute-of-pharmaceutical-science-tezpur-149845",
+  "https://www.shiksha.com/college/faculty-of-physiotherapy-maher-k-k-nagar-chennai-154909",
 ]
 
 
@@ -9251,7 +9251,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2141
+    c_count = 1321
 
     try:
         for base_url in BASE_URL:
