@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/jamia-tibbiya-deoband-saharanpur-86969",
-  "https://www.shiksha.com/college/yashwantrao-bhonsale-college-of-pharmacy-sawantwadi-88423",
-  "https://www.shiksha.com/college/m-s-m-institute-of-ayurveda-sonepat-195367",
-  "https://www.shiksha.com/college/shri-dhanvantri-ayurvedic-medical-college-karnataka-other-185775",
-  "https://www.shiksha.com/college/ppce-viman-nagar-ruby-hall-clinic-bund-garden-bund-garden-road-pune-38376",
-  "https://www.shiksha.com/college/dr-d-y-patil-institute-of-optometry-and-visual-sciences-pune-190223",
-  "https://www.shiksha.com/college/the-oxford-college-of-physiotherapy-bangalore-202019",
-  "https://www.shiksha.com/college/trinity-college-of-pharmacy-pune-208101",
-  "https://www.shiksha.com/college/sonekar-college-of-pharmacy-nagpur-87697",
-  "https://www.shiksha.com/college/bhai-gurdas-degree-college-sangrur-140971",
-  "https://www.shiksha.com/university/iilm-university-gurgaon-56587",
-  "https://www.shiksha.com/college/oriental-college-of-pharmacy-bhopal-147525",
-  "https://www.shiksha.com/college/sardar-patel-college-of-pharmacy-gorakhpur-65485",
-  "https://www.shiksha.com/college/the-lotus-college-of-optometry-juhu-mumbai-29756",
-  "https://www.shiksha.com/university/jagran-lakecity-university-bhopal-38105",
-  "https://www.shiksha.com/college/anantrao-kanase-homoeopathic-medical-college-maharashtra-other-70067",
-  "https://www.shiksha.com/college/jagadguru-gangadhar-mahaswamigalu-moorsavirmath-medical-college-hubli-180681",
-  "https://www.shiksha.com/college/medical-college-and-hospital-bharati-vidyapeeth-sangli-54845",
-  "https://www.shiksha.com/college/girijananda-chowdhury-institute-of-pharmaceutical-science-tezpur-149845",
-  "https://www.shiksha.com/college/faculty-of-physiotherapy-maher-k-k-nagar-chennai-154909",
+  "https://www.shiksha.com/college/dharam-samaj-college-of-pharmacy-aligarh-149299",
+  "https://www.shiksha.com/college/jagadambha-institute-of-pharmacy-and-research-yavatmal-150649",
+  "https://www.shiksha.com/college/j-s-s-institute-of-naturopathy-and-yogic-sciences-coimbatore-193665",
+  "https://www.shiksha.com/college/abss-institute-of-technology-meerut-43283",
+  "https://www.shiksha.com/college/isas-international-beauty-school-ahmedabad-navrangpura-53478",
+  "https://www.shiksha.com/college/acme-institute-of-pharmacy-bareilly-65421",
+  "https://www.shiksha.com/college/dysmech-clinical-services-wakad-pune-101847",
+  "https://www.shiksha.com/college/vijayrao-naik-college-of-pharmacy-maharashtra-other-147751",
+  "https://www.shiksha.com/college/farooqia-dental-college-and-hospital-mysore-150263",
+  "https://www.shiksha.com/college/homi-bhabha-cancer-hospital-sangrur-180917",
+  "https://www.shiksha.com/university/nitte-university-mangalore-56671",
+  "https://www.shiksha.com/college/academy-of-pharmaceutical-sciences-kannur-60753",
+  "https://www.shiksha.com/college/chemists-college-of-pharmaceutical-sciences-and-research-varikoli-ernakulum-60761",
+  "https://www.shiksha.com/college/sirda-group-of-institutions-mandi-64949",
+  "https://www.shiksha.com/college/vinayaka-college-of-pharmacy-kullu-68387",
+  "https://www.shiksha.com/college/st-mary-s-college-of-pharmacy-secunderabad-70251",
+  "https://www.shiksha.com/college/netra-chikitsa-trust-ayurveda-college-amreli-87455",
+  "https://www.shiksha.com/college/lutawan-institute-of-pharmacy-ghazipur-88645",
+  "https://www.shiksha.com/college/bharat-ratna-late-shri-atal-bihari-vajpayee-memorial-medical-college-rajnandgaon-180845",
+  "https://www.shiksha.com/college/rudrapur-college-of-management-and-technology-188207",
 ]
 
 
@@ -9251,7 +9251,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1321
+    c_count = 2461
 
     try:
         for base_url in BASE_URL:
