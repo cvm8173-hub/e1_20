@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/dharam-samaj-college-of-pharmacy-aligarh-149299",
-  "https://www.shiksha.com/college/jagadambha-institute-of-pharmacy-and-research-yavatmal-150649",
-  "https://www.shiksha.com/college/j-s-s-institute-of-naturopathy-and-yogic-sciences-coimbatore-193665",
-  "https://www.shiksha.com/college/abss-institute-of-technology-meerut-43283",
-  "https://www.shiksha.com/college/isas-international-beauty-school-ahmedabad-navrangpura-53478",
-  "https://www.shiksha.com/college/acme-institute-of-pharmacy-bareilly-65421",
-  "https://www.shiksha.com/college/dysmech-clinical-services-wakad-pune-101847",
-  "https://www.shiksha.com/college/vijayrao-naik-college-of-pharmacy-maharashtra-other-147751",
-  "https://www.shiksha.com/college/farooqia-dental-college-and-hospital-mysore-150263",
-  "https://www.shiksha.com/college/homi-bhabha-cancer-hospital-sangrur-180917",
-  "https://www.shiksha.com/university/nitte-university-mangalore-56671",
-  "https://www.shiksha.com/college/academy-of-pharmaceutical-sciences-kannur-60753",
-  "https://www.shiksha.com/college/chemists-college-of-pharmaceutical-sciences-and-research-varikoli-ernakulum-60761",
-  "https://www.shiksha.com/college/sirda-group-of-institutions-mandi-64949",
-  "https://www.shiksha.com/college/vinayaka-college-of-pharmacy-kullu-68387",
-  "https://www.shiksha.com/college/st-mary-s-college-of-pharmacy-secunderabad-70251",
-  "https://www.shiksha.com/college/netra-chikitsa-trust-ayurveda-college-amreli-87455",
-  "https://www.shiksha.com/college/lutawan-institute-of-pharmacy-ghazipur-88645",
-  "https://www.shiksha.com/college/bharat-ratna-late-shri-atal-bihari-vajpayee-memorial-medical-college-rajnandgaon-180845",
-  "https://www.shiksha.com/college/rudrapur-college-of-management-and-technology-188207",
+  "https://www.shiksha.com/college/school-of-nursing-n-p-m-institute-of-medical-science-and-research-keonjhar-200775",
+  "https://www.shiksha.com/college/guru-institute-of-paramedical-sciences-baramulla-201445",
+  "https://www.shiksha.com/college/kashyap-institute-of-vision-science-ranchi-201685",
+  "https://www.shiksha.com/college/al-iqra-college-of-pharmacy-tumkur-207665",
+  "https://www.shiksha.com/college/managuli-institute-of-pharmaceutical-sciences-yadgir-207797",
+  "https://www.shiksha.com/college/siddharth-college-of-pharmacy-karnataka-other-207927",
+  "https://www.shiksha.com/college/mgm-college-of-pharmacy-kannur-208035",
+  "https://www.shiksha.com/college/dpos-nett-college-of-pharmacy-thane-208077",
+  "https://www.shiksha.com/college/vivek-college-of-education-bijnor-228999",
+  "https://www.shiksha.com/college/igm-homoeopathic-medical-college-dhar-230174",
+  "https://www.shiksha.com/college/emversity-school-of-hospitality-health-sciences-delhi-rohini-rohini-239224",
+  "https://www.shiksha.com/college/narayana-hrudayalaya-surgical-hospital-mysore-240846",
+  "https://www.shiksha.com/college/sri-shankara-cancer-hospital-and-research-centre-bangalore-240892",
+  "https://www.shiksha.com/college/sai-polytechnic-college-pathankot-100427",
+  "https://www.shiksha.com/college/priyadarshini-indira-gandhi-government-college-for-women-jind-104757",
+  "https://www.shiksha.com/college/globus-college-of-pharmacy-raisen-147429",
+  "https://www.shiksha.com/college/shree-venkateshwara-hi-tech-polytechnic-college-erode-148443",
+  "https://www.shiksha.com/college/ameer-hasan-college-of-pharmacy-bahraich-148587",
+  "https://www.shiksha.com/college/indraprastha-college-of-pharmacy-allahabad-148711",
+  "https://www.shiksha.com/college/shree-om-college-of-pharmacy-and-research-betul-156923",
 ]
 
 
@@ -9251,7 +9251,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2461
+    c_count = 3381
 
     try:
         for base_url in BASE_URL:
